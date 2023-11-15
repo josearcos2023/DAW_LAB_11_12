@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<meta>
+	<title>Hola mundo</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+	<p th:text="'Mensaje recibido ->' + ${mensaje} + '!'"></p>
+
+	<div>
+		<a href="/index.html">Regresar</a>
+		<a href="/operaciones?num1=12&num2=4&ope=*">Operaciones</a>
+	</div>
+</body>
+</html>
